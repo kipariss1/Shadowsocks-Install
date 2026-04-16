@@ -308,7 +308,7 @@ install_dependencies() {
     elif check_sys packageManager apt; then
         apt_depends=(
             autoconf automake build-essential cpio curl gcc gettext git gzip libpcre2-8-0 libpcre2-dev
-            libtool make openssl perl python python-dev python-setuptools qrencode unzip
+            libtool make openssl perl python3 python3-dev python3-setuptools qrencode unzip
             libc-ares-dev libev-dev libssl-dev zlib1g-dev
         )
 
